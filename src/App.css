@@ -1,0 +1,193 @@
+/* General Container Styling */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 80%;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Form Row */
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Label Containers */
+.label-container {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.label1-container {
+  margin-top: 25px;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Select and Input Styling */
+.label1-container select,
+.label2-container input[type="checkbox"] {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.select {
+  width: 90%;
+}
+
+/* Label 2 Styling */
+.label2-container label {
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px 0;
+}
+
+.label2-container input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.checkbox-value {
+  height: 20px;
+  width: 20px;
+}
+
+/* Dropdown */
+.dropdown-toggle {
+  width: 90%;
+  height: 25px;
+  margin-top: 25px;
+  border: 1px solid;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+/* Add Option Inputs */
+.add-option {
+  height: 20px;
+  width: 75%;
+}
+
+.add-button {
+  height: 25px;
+  width: 17%;
+  margin-left: 15px;
+  background-color: black;
+  color: white;
+}
+
+/* Table Styling */
+.form-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Cells */
+.form-table th {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+/* Table Rows */
+.form-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Zebra Stripe Effect */
+.form-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Row Hover Effect */
+.form-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Pills Styling */
+.pill {
+  display: inline-block;
+  background-color: #e7f1ff;
+  padding: 5px 10px;
+  font-size: 14px;
+  margin: 5px 10px 0 0;
+  border-radius: 4px;
+}
+
+.pill .remove-icon {
+  color: black;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.pill:hover .remove-icon {
+  color: #ff4d4f;
+}
+
+/* Add New Row Button */
+.add-row-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: black; /* Green background */
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.add-row-btn:hover {
+  background-color: #218838;
+}
+
+.c-select {
+  width: 250px;
+  height: 40px;
+  border: 1px solid grey;
+  border-radius: 50px;
+  position: relative;
+}
+.c-caret {
+  float: right;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.c-dropdown-options {
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  overflow: auto;
+  top: 45px;
+  left: 15px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.c-optn {
+  display: block;
+}
+.c-optn:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
+.item {
+  display: inline-block;
+  background-color: #e7f1ff;
+  padding: 5px 10px;
+  font-size: 14px;
+  margin: 5px 10px 0 0;
+  border-radius: 4px;
+}
